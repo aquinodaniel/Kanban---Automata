@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="css/loginzation.css">
+    <title>login - zation</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="carrossel">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imgs/Group 11.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/Group 11 (1).png" class=" d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/Group 11 (2).png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <form id="form" class="form" action="">
+
+            <header>
+                <img src="imgs/Zation__1_-removebg-preview_2-removebg-preview.png" alt="">
+            </header>
+            <div class="form-content" id="formcont">
+                <label for="login">Login
+                    <input id="login" type="text" placeholder="Digite o login de usuário">
+                    <div class="validation">
+                        <p id="validation">Campo obrigatório</p>
+                    </div>
+                </label>
+                <label for="password">Senha
+                    <input id="password" type="password" placeholder="Digite a sua senha de usuário">
+                    <div class="validation">
+                        <p id="validationdois">Campo obrigatório</p>
+                    </div>
+                </label>
+            </div>
+            <button type="submit">Continuar</button>
+            <div class="pes">
+                <p><a href="">Esqueceu a senha?</a></p>
+                <p><a href="">Criar nova conta</a></p>
+            </div>
+
+        </form>
+
+    </div>
+
+    <script src="js/JSloginzation.js"></script>
+</body>
+
+</html>
